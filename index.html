@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#060608">
+<title>ZEVRYNTH - No Final Record</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div>
+      <h1>ZEVRYNTH</h1>
+      <p class="tl">NO FINAL RECORD</p>
+    </div>
+    <button class="btn" id="disc" type="button">DISCOVER</button>
+  </div>
+  <form id="sf" autocomplete="off">
+    <input id="q" type="text" inputmode="numeric" enterkeyhint="search" maxlength="520" placeholder="Search ID" aria-label="Record ID">
+    <button class="btn" type="submit">SEARCH</button>
+  </form>
+  <p id="msg" role="status"></p>
+</header>
+
+<main id="feed" aria-label="Records">
+  <div id="list"><div class="s" id="up"></div><div class="s" id="dn"></div></div>
+</main>
+
+<div id="modal" aria-hidden="true">
+  <div id="panel" role="dialog" aria-modal="true" aria-label="Record">
+    <div id="mbody"></div>
+    <div id="foot">
+      <button class="btn" data-act="prev" type="button">PREVIOUS</button>
+      <button class="btn" data-act="next" type="button">NEXT</button>
+      <button class="btn" data-act="close" id="close" type="button">CLOSE</button>
+    </div>
+  </div>
+</div>
+
+<noscript><p style="padding:16px;color:#cfd2da">ZEVRYNTH needs JavaScript to generate its records.</p></noscript>
+<script src="script.js"></script>
+</body>
+</html>

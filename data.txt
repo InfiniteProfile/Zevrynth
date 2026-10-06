@@ -1,0 +1,32 @@
+Name: Vaelqora
+Type: Astral Entity
+World: Silent Meridian
+Rarity: Mythic
+Status: Observed
+Description: A luminous entity beyond the mapped boundary.
+-
+Name: Nythervane
+Type: Lattice Construct
+World: Hollow Reach
+Rarity: Rare
+Description: A lattice that rebuilds itself each time it is surveyed.
+-
+Name: Qelvaris
+Type: Tidal Sovereign
+World: Pale Basin
+Rarity: Exotic
+Status: Dormant
+Description: A sovereign of slow tides, heard only at the edge of sleep.
+-
+Name: Elyrion
+Type: Resonant Choir
+World: Glass Horizon
+Rarity: Uncommon
+Description: A choir of signals that sings one note across many layers.
+-
+Name: Oryzavelle
+Type: Veiled Archive
+World: Ashen Vault
+Rarity: Singular
+Status: Unmapped
+Description: An archive whose catalogue grows each time it is read.
